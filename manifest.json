@@ -1,6 +1,6 @@
 {
-  "name": "OneWeb Store",
-  "short_name": "OneWeb",
+  "name": "GitHub Explore",
+  "short_name": "GitHub",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#0f172a",
@@ -12,4 +12,5 @@
       "type": "image/png"
     }
   ]
+
 }
