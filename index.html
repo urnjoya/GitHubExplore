@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Explorer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json">
+    <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <style>
+ 
+    </style>
+</head>
+
+<body>
+
+    <nav>GitHub API Explorer (Frontend Only)</nav>
+    <section id="searchbar">
+        <input type="text" id="searchInput" placeholder="Enter GitHub username" />
+        <button id="searchBtn">Search</button>
+    </section>
+    <section id="profile" class="card"></section>
+
+    <section>
+        <h2>Repositories</h2>
+        <div id="repos" class="grid"></div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
